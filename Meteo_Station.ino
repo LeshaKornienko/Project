@@ -30,11 +30,11 @@ URTouch ts(t_SCK, t_CS, t_MOSI, t_MISO, t_IRQ); // Создаем объект �
 DS3231 clock;
 RTCDateTime dt;
 
-/*enum Images
+enum Images
 {
   WIFI_ICON,
   THERMOMETER_ICON
-};*/
+};
 
 const uint8_t xWiFiIcon[37] PROGMEM =
 {
